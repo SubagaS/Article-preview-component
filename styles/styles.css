@@ -23,8 +23,6 @@ p {
   --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
-
-
 body {
   background-color: var(--light-grayish-blue);
   display: flex;
@@ -199,6 +197,7 @@ body {
     left: 20.5rem;
     bottom: 11rem;
     justify-content: none;
+    box-shadow: 0 0.6rem 2rem rgba(158, 175, 194, 60%);
   }
   .profile-links::after {
     content: ' ';
